@@ -1,0 +1,195 @@
+/* font-family: 'Roboto', sans-serif; */
+
+@font-face {
+    font-family: Hero;
+    src: url(../fonts/Hero.otf);
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Header Section Start */
+header {
+	background-color: #07101A;
+}
+.custom_nav {
+	text-align: right;
+}
+.custom_nav li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #fff!important;
+	transition: .5s ease;
+}
+.custom_nav li a:hover {
+	color: #FE5E00!important;
+}
+/* Header Section End */
+/* Banner Section Start */
+.banner {
+	background-image: url(../images/banner_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner_content {
+	margin-top: 550px;
+}
+.banner_content h1 {
+	color: #FE5E00;
+	font-family: Hero;
+	font-size: 72px;
+	font-weight: 400;
+}
+.banner_content h2 {
+	color: #FE5E00;
+	font-family: Hero;
+	font-size: 36px;
+	font-weight: 400;
+}
+.store_img {
+	margin: 40px;
+	margin-bottom: 70px;
+}
+/* Banner Section End */
+/* About Section Start */
+.about {
+	background-image: url(../images/service_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.common_title {
+	margin-top: 100px;
+}
+.common_title h1 {
+	font-family: Hero;
+	font-size: 60px;
+	font-weight: 400;
+	color: #fff;
+}
+.common_title hr {
+	width: 175px;
+	border: 2px solid #fff;
+	margin: 0 auto;
+}
+.about_content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.about_content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+/* About Section End */
+/* Services Section Start */
+.service {
+	background-image: url(../images/offerings_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+.common_title p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 20px;
+}
+.service_content {
+	background-color: #23135E;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+.service_content h1 {
+	font-family: Hero;
+	font-size: 26px;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 10px;
+}
+.service_content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+}
+/* Services Section End */
+/* Contact Section Starts */
+.contact {
+	background-image: url(../images/bottom_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hr_color {
+	border-color: #4D4D4D!important;
+	margin-top: 20px;
+}
+.form_section {
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+.custom_form {
+	margin-bottom: 30px;
+}
+.custom_form input {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	height: calc(2.84rem + 2px);
+	border: none;
+	border-radius: 0px;
+	border: 1px solid #4D4D4D;
+}
+.custom_form textarea {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	border: none;
+	border-radius: 0px;
+	border: 1px solid #4D4D4D;
+}
+.form_section button {
+	font-family: Hero;
+	font-size: 22px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #FE5E00;
+	padding: 15px 90px;
+	border: 2px solid #FE5E00;
+	transition: .5s ease;
+}
+.form_section button:hover {
+	background-color: transparent;
+}
+.social_content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	color: #898989;
+}
+.bottom_logo {
+	margin-bottom: 30px;
+}
+/* Contact Section Ends */
+/* Footer Section Starts */
+footer {
+	background-color: #101010;
+}
+.footer_content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.footer_content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #898989;
+}
+.for_color {
+	color: #FE5E00;
+	font-weight: 700;
+}
+/* Footer Section Ends */

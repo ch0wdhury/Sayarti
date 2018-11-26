@@ -1,0 +1,138 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Banner Section Start */
+	.banner_content {
+	margin-top: 400px;
+	}
+	.banner_content h1 {
+		font-size: 40px;
+	}
+	.banner_content h2 {
+		font-size: 20px;
+	}
+	/* Banner Section End */
+	/* About Section Start */
+	.common_title {
+		margin-top: 60px;
+	}
+	.common_title h1 {
+		font-size: 40px;
+	}
+	.common_title hr {
+		width: 135px;;
+		margin: 0 auto;
+	}
+	.about_content {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.about_content p {
+		font-size: 12px;
+	}
+	/* About Section End */
+	/* Services Section Start */
+	.common_title p {
+		font-size: 20px;
+	}
+	.service_content h1 {
+		font-size: 18px;
+	}
+	.service_content p {
+		font-size: 10px;
+	}
+	/* Services Section End */
+	/* Contact Section Starts */
+	.form_section {
+		margin-top: 60px;
+		margin-bottom: 80px;
+	}
+	.custom_form {
+		margin-bottom: 30px;
+	}
+	.custom_form input {
+		font-size: 14px;
+		height: calc(2.44rem + 2px);
+		border: none;
+		border-radius: 0px;
+		border: 1px solid #4D4D4D;
+	}
+	.custom_form textarea {
+		font-size: 14px;
+	}
+	.form_section button {
+		font-size: 18px;
+		padding: 10px 70px;
+	}
+	.social_content p {
+		font-size: 22px;
+	}
+	.bottom_logo {
+		margin-bottom: 20px;
+	}
+	/* Contact Section Ends */
+	/* Footer Section Starts */
+	.footer_content {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.footer_content p {
+		font-size: 12px;
+	}
+	/* Footer Section Ends */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* Banner Section Start */
+	.banner_content h1 {
+		font-size: 60px;
+	}
+	.banner_content h2 {
+		font-size: 30px;
+	}
+	/* Banner Section End */
+	/* About Section Start */
+	.common_title {
+		margin-top: 100px;
+	}
+	.common_title h1 {
+		font-size: 45px;
+	}
+	.common_title hr {
+		width: 155px;;
+		margin: 0 auto;
+	}
+	.about_content {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.about_content p {
+		font-size: 15px;
+	}
+	/* About Section End */
+	/* Services Section Start */
+	.common_title p {
+		font-size: 22px;
+	}
+	.service_content h1 {
+		font-size: 24px;
+	}
+	.service_content p {
+		font-size: 12px;
+	}
+	/* Services Section End */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
